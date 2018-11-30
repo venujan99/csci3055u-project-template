@@ -7,20 +7,25 @@
 
 > _Describe the language_
 >
-> - History
+> - History:
+
+Swift is a general purpose, open source programming lanuage that was developed by Apple for iOS, macOS, and Linux. Swift is a fairly new language as it was started by Chris Lattner in 2010. This language got its ideas from Objective-C, Rust, Haskell, Ruby, Python and C# to name a few. The language was officially used with the first app written in Swift in 2014. Prior to Swift, Apple was using Objective-C as their preferred language.
+
 > - Some interesting features
 
 ## About the syntax
 
+Swift is an alternative language to Objective-C, but has simpler syntax. They say its Obective-C without the "C".
+
 > _give some code snippet of the language_
 
-*Let form*
+*Creating a Variable*
 
-```clojure
-(let [x 10
-      y 20]
-  (+ x y))
-```
+var sample_string: String = "Hello World"
+
+*Creating an immutable variable*
+
+let sample_string = "Hello World"
 
 ## About the tools
 
