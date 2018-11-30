@@ -1,7 +1,7 @@
-# _Your project title_
+# CSCI 3055 Final Project (Swift)
 
-- _your name_
-- _your email (uoit.net)_
+- Venujan Satchithanantham
+- venujan.satchithanantham@uoit.net
 
 ## About the language
 
