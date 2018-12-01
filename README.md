@@ -25,7 +25,9 @@ var sample_string: String = "Hello World"
 
 *Creating an immutable variable*
 
+```swift
 let sample_string = "Hello World"
+```
 
 ## About the tools
 
