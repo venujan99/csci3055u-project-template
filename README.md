@@ -14,10 +14,11 @@ Swift is a general purpose, open source programming lanuage that was developed b
 > - Some Interesting Features:
 
 Swift has a "playground", which is where you can see the result of your code without completely compiling it. This is done through the web browser. It is a live interactive document, which the code executes and results are displayed step-by-step as they are executed. 
+A safety feature that is introduced in Swift, it that by default a Swift object cannot be nil. This makes coding cleaner and safer for developers.
 
 ## About the syntax
 
-Swift is an alternative language to Objective-C, but has simpler syntax. They say its Obective-C without the "C".
+Swift is an alternative language to Objective-C, but has simpler syntax. They say its Obective-C without the "C". Swift was designed to eliminate classes of unsafe code. Variables are always initialized before use, arrays and integers are checked for overflow, and memory is managed automatically. This simplifies the coding procedure for developers. 
 
 > Sample Snippets of Basic Code
 
