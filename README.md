@@ -5,7 +5,6 @@
 
 ## About the language
 
-> _Describe the language_
 >
 > - History:
 
@@ -47,24 +46,24 @@ items += "Crayons"
 
 ## About the tools
 
-> _ Compiler/Interpreter
+> _Compiler/Interpreter_
 
-The compiler for Swift has a couple of phases, which include Lexical Analysis, Parsing, Semantic Analyser, Opimization and Code Generaion. It also has two dimensions, Front-End and Back-End.
+> The compiler for Swift has a couple of phases, which include Lexical Analysis, Parsing, Semantic Analyser, Opimization and Code Generaion. It also has two dimensions, Front-End and Back-End.
 
 > - Lexical Analysis: 
-The task of the lexical analyzer is to take the program text and covert it into words and tokens. Once this is complete, it will take everything and pass it to the next phase which is parsing.
+> The task of the lexical analyzer is to take the program text and covert it into words and tokens. Once this is complete, it will take everything and pass it to the next phase which is parsing.
 
 >- Parsing:
-The task of the parsers is to take everything from the the lexical analyser, and group the words and tokens together so that the code makes sense. THe parser then passes the code to the semantic analyser.
+> The task of the parsers is to take everything from the the lexical analyser, and group the words and tokens together so that the code makes sense. THe parser then passes the code to the semantic analyser.
 
 >- Semantic Analyzer:
-This process is important as it may identify types and logic of the program, it may also execute some progam bindings. Once all of this is complete, it will pass on to the optimization phase.
+> This process is important as it may identify types and logic of the program, it may also execute some progam bindings. Once all of this is complete, it will pass on to the optimization phase.
 
 >- Optimization:
-During optimization, the code you typed is being cleaned up. This phase will decide whether to perform optimization to certain parts of your code. At the end of this phase, your code will be optimized for performance and any memory related issues it may face.
+> During optimization, the code you typed is being cleaned up. This phase will decide whether to perform optimization to certain parts of your code. At the end of this phase, your code will be optimized for performance and any memory related issues it may face.
 
 >- Code Generation:
-During this final phase of the compiler, code is turned into a binary file, which is also known as an executable file. 
+> During this final phase of the compiler, code is turned into a binary file, which is also known as an executable file. 
 
 ## About the standard library
 
