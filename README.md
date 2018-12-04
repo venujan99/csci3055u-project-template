@@ -33,6 +33,17 @@ var sample_string: String = "Hello World"
 let sample_string = "Hello World"
 ```
 
+*Creating an Array*
+
+```swift
+var items = ["Pencil", "Eraser"]
+```
+
+*Adding an Item to an Exisiting Array*
+```swift
+items += "Crayons"
+```
+
 ## About the tools
 
 > _Describe the compiler or interpreter needed_.
