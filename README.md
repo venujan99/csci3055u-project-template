@@ -11,13 +11,15 @@
 
 Swift is a general purpose, open source programming lanuage that was developed by Apple for iOS, macOS, and Linux. Swift is a fairly new language as it was started by Chris Lattner in 2010. This language got its ideas from Objective-C, Rust, Haskell, Ruby, Python and C# to name a few. The language was officially used with the first app written in Swift in 2014. Prior to Swift, Apple was using Objective-C as their preferred language.
 
-> - Some interesting features
+> - Some Interesting Features:
+
+Swift has a "playground", which is where you can see the result of your code without completely compiling it. This is done through the web browser. It is a live interactive document, which the code executes and results are displayed step-by-step as they are executed. 
 
 ## About the syntax
 
 Swift is an alternative language to Objective-C, but has simpler syntax. They say its Obective-C without the "C".
 
-> _give some code snippet of the language_
+> Sample Snippets of Basic Code
 
 *Creating a Variable*
 
