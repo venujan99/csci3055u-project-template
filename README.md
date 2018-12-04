@@ -47,7 +47,7 @@ items += "Crayons"
 
 ## About the tools
 
-> _Compiler/Interpreter
+> _ Compiler/Interpreter
 
 The compiler for Swift has a couple of phases, which include Lexical Analysis, Parsing, Semantic Analyser, Opimization and Code Generaion. It also has two dimensions, Front-End and Back-End.
 
