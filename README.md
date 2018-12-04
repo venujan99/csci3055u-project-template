@@ -21,7 +21,9 @@ Swift is an alternative language to Objective-C, but has simpler syntax. They sa
 
 *Creating a Variable*
 
+```swift
 var sample_string: String = "Hello World"
+```
 
 *Creating an immutable variable*
 
