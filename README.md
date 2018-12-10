@@ -93,13 +93,115 @@ let numbers = [1, 2, 40, 12, 32, 11, 19, 52]
 let names = ["John", "Mary", "Sam"]
 ```
 
-
 ## About open source library
 
 > _Describe at least one contribution by the open source
 community written in the language._
 
 # Analysis of the language
+
+## Style of Programming
+
+Swift supports functional porgramming. Below are some examples of how Swift supports functional programming.
+
+> Immutatibility:
+```swift
+let num = 1
+```
+> Immutability means that once a value is set, it cannot be altered in any way. This is done in swift by using the let keyword when creating values. Immutability is used because it allows developers to wriete thread-safe code.
+
+> Value Types:
+```swift
+struct CGRect { }
+
+var box = CGRect.zero
+var square = box.size
+
+box.size.height = 10
+
+// square: width: 0, height: 0
+// box.size: width: 0, height: 10
+```
+
+> When passing around values instead of references to values, you are ceating safer code. Structs do exactly that, also almost everything inside the Swift standard libray is a struct such as; Array, Int, Bool. 
+
+> Pure Functions: 
+
+```swift
+func sum(_ a: Int, _ b: Int) -> Int { 
+    return a + b 
+}
+````
+> A pure function is where its return value is only determined by its input value(s). It does only one thing which is compute its return value. The purpose of writing pure functions is to eliminate all possibilites of side-effects, which can increase the chance for bugs.
+
+> First-Class Functions
+
+```swift
+func sayHello() {
+    print("Hi!")
+}
+let greeting = sayHello
+greeting()
+// prints: Hi!
+```
+
+> First class functions means you can assign functions to variables, just like you would with an integer or string. This allows developers to write functions that can take other functions as arguments, as well as return them.
+
+## Meta-Programming
+
+An Example:
+
+```swift
+struct Car {
+  
+  let model: String
+  let numberOfSeats: Int
+  let color: UIColor
+  
+}
+```
+
+Now in order to use this code in various places, you must extend it...
+
+```swift
+extension Car : Equatable {
+  
+  func ==(lhs: Car, rhs: Car) -> Bool {
+    return lhs.model == rhs.model &&
+        lhs.numberOfSeats == rhs.numberOfSeats &&
+        lhs.color == rhs.color
+  }
+}
+```
+
+
+## Symbol Resolution (Support for Closure)
+
+Closures in Swift are similar to blocks in C and Objective-C, and similar to lambdas in other languages. Closures can capture and store references to any constants and variables from the context in which they were defined. Swift handles all of the memory management of capturing. Closures can take one of three forms: <br />
+
+- Global Functions
+- Nested Functions
+- Closure Expressions
+
+An Example of sorting closure below:
+
+```swift
+func backward(_ s1: String, _ s2: String) -> Bool {
+    return s1 > s2
+}
+var reversedNames = names.sorted(by: backward)
+// reversedNames is equal to ["Gold", "Ruby", "Sapphire", "Emerald", "Pearl"]
+```
+
+## Lexical vs Dynamic Scoping
+
+
+
+## Type System (Static vs Dynamic)
+
+
+
+## Pros and Cons of Swift
 
 > _Organize your report according to the project description
 document_.
