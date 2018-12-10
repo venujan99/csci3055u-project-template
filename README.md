@@ -67,8 +67,32 @@ items += "Crayons"
 
 ## About the standard library
 
-> _Give some examples of the functions and data structures
-> offered by the standard library_.
+Examples of functions in the standard library:
+
+* print(_:separator:terminator:)
+```swift
+func print(_ items: Any..., separator: String = default, terminator: String = default)
+```
+> _The items are the items to print._ <br />
+> _Separator is a string to print in between each item (default is a single space)._ <br />
+> _Terminator is the string to print after all items have been printed._ <br />
+
+Example: 
+
+```swift
+print(1, 2, 3, 4, 5, separator: " ... ")
+// Prints the following:  "1 ... 2 ... 3 ... 4 ... 5"
+```
+
+* An array of Int elements 
+```swift
+let numbers = [1, 2, 40, 12, 32, 11, 19, 52]
+```
+* An array of String elements 
+```swift
+let names = ["John", "Mary", "Sam"]
+```
+
 
 ## About open source library
 
