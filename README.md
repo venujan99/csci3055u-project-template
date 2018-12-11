@@ -195,15 +195,31 @@ var reversedNames = names.sorted(by: backward)
 
 ## Lexical vs Dynamic Scoping
 
+- Lexical Scoping:
+A function can be defined within another function, and the inner functions have access to the local variables defined in the enclosing scope. Those inner function also have access to the function parameters of the enclosing function. All of these are supported by Swift.
 
+- Dynamic Scoping:
+As for dynamic scoping, it's when a symbol is referenced and the compiler will search through to find the correct instance of the variable to use.
 
 ## Type System (Static vs Dynamic)
 
-
+Swift is a static language, unlike Objective-C which is dynamic. This is because the compiler must have all the information about the classes and functions being used, at compile time. Although, you can extend an existing class. On the other hand, when Swift is used with Cocoa, you get access to the Objective-C runtime library which allows you to use the dynamic classes. Although the language itself isn't dyanmically written.
 
 ## Pros and Cons of Swift
 
-> _Organize your report according to the project description
-document_.
+Pros: <br /> 
+- It is open source, and became well devleloped within 3 years. <br />
+- Its syntax encourages you to write clean and consistent code, which makes it safe code. <br />
+- As the name says itself, Swift is 2.6x faster than Objective-C and 8.4x faster than Python. <br />
+- Rapid Development Process: Swift is a clean and expressive language with simplified syntax, and much easier to read and write. <br />
+- Memory usage and management is automatically done so the developers don't have to spend time and effort on it. <br />
+- Swift projects are easy to scale, and Apple is more likely to support Swift than Objective-C. <br />
+- Decreased Memory Footprint <br />
+- Interoperability with Objective-C: You can either add new features in Swift to an existing Objective-C codebase, or use Objective-C elements in a Swift project. <br />
 
-
+Cons: <br />
+- Still a pretty new language, and some issues are still out there. <br />
+- Limited number of native libraries. <br />
+- Swift is considered "unstable" due to the major changes that are introduced with every new release. <br />
+- Poor interoperability with third party tools and IDEs. <br />
+- Lack of support for earlier iOS versions. Swift can only be used in apps that target iOS7 and above.
